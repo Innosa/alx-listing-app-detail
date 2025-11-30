@@ -1,9 +1,9 @@
 // pages/index.tsx
 
 import Image from "next/image";
-import { HERO_BG, FILTERS, PROPERTYLISTINGSAMPLE } from "@/constants";
-import Pill from "@/components/Pill";
-import PropertyCard from "@/components/PropertyCard";
+import { HERO_BG, FILTERS, PROPERTYLISTINGSAMPLE } from "../constants";
+import Pill from "@/components/common/Pill";
+import PropertyCard from "@/components/common/PropertyCard";
 
 export default function Home() {
   return (
